@@ -100,12 +100,10 @@
   width: 80%;
   min-width: 784px;
 }
-.two-columns__main-text p{
-  margin: 0px;
-}
+
 .two-columns__paragraph {
   margin: 0px;
-  margin-bottom: 30px !important;
+  margin-bottom: 30px;
 }
 .two-columns__span-accent {
   font-weight: bold;
@@ -138,7 +136,7 @@
 .table {
   width: 1100px;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 100px;
 }
@@ -234,7 +232,7 @@
 .table__theme-dark {
   width: 1100px;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;

@@ -1,3 +1,10 @@
+p, ul, li, h1, h2, h3
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -99,6 +106,9 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .two-columns__paragraph {
@@ -268,7 +278,6 @@
   justify-content: space-between;
   min-height: 350px;
   box-sizing: border-box;
-  padding: 60px 0 40px;
   width: 100%;
 }
 .footer__columns {
@@ -276,7 +285,8 @@
   justify-content: space-between; /*первый элемент прижат к началу ряда, о последний к концу. Между ними равномерно*/
   align-items: stretch;
   width: 90%;
-  margin: 0 auto;
+  margin:60px auto 40px;
+  border: 2px solid aquamarine;
 }
 .footer__column__content-copyright {
   display: flex;
@@ -284,6 +294,7 @@
   width: 50%;
   justify-content: space-between;
   flex-basis: 711px;
+  border: 1px solid red;
 }
 .footer__author {
   margin-left: 0px;
@@ -304,6 +315,7 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
+  border: 1px solid red;
 }
 .footer__columns__content-social {
   font-size: 18px;

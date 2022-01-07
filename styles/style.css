@@ -286,7 +286,6 @@ p, ul, li, h1, h2, h3
   align-items: stretch;
   width: 90%;
   margin:60px auto 40px;
-  border: 2px solid aquamarine;
 }
 .footer__column__content-copyright {
   display: flex;
@@ -294,7 +293,6 @@ p, ul, li, h1, h2, h3
   width: 50%;
   justify-content: space-between;
   flex-basis: 711px;
-  border: 1px solid red;
 }
 .footer__author {
   margin-left: 0px;
@@ -315,7 +313,6 @@ p, ul, li, h1, h2, h3
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  border: 1px solid red;
 }
 .footer__columns__content-social {
   font-size: 18px;

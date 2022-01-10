@@ -285,7 +285,7 @@
 }
 .footer__columns {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: stretch;
   width: 90%;
   margin:60px auto 40px;
@@ -304,7 +304,6 @@
   font-weight: normal;
   color: #10191e;
   padding: 18px 0 18px;
-  color: white;
 }
 .logo__place_footer {
   left: 0px;

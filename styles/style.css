@@ -43,6 +43,8 @@
   z-index: 2;
 }
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -86,6 +88,8 @@
   justify-content: space-between;
 }
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   width: 175px;
   color: #2f80ed;
   font-size: 18px;
@@ -101,7 +105,8 @@
 }
 
 .two-columns__paragraph {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   margin-bottom: 30px;
   line-height:34px;
   font-size: 24px;
@@ -122,21 +127,23 @@
   margin-top: 100px;
   align-items: center;
 }
-.title {
+.section-title {
   width: 60%;
   display: flex;
   justify-content: center;
   font-size: 60px;
   font-weight: bold;
   line-height: 1.5;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   margin-bottom: 20px;
 }
-.subtitle {
+.section-subtitle {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 .table {
   width: 1100px;
@@ -150,12 +157,16 @@
   width: 250px;
 }
 .table__heading {
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.15;
   margin-top: 0px;
 }
 .table__text {
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -166,7 +177,7 @@
   display: flex;
   flex-direction: column;
   margin: 0px;
-  height: 890px;
+  min-height: 890px;
   position: relative;
   background-color: #f2f2f2;
 }
@@ -176,7 +187,8 @@
   left: 0px;
 }
 .feynman__title {
- 
+  margin: 0;
+  padding: 0;
   width: 648px;
   font-size: 120px;
   font-weight: bold;
@@ -189,13 +201,15 @@
   align-self: center;
 }
 .feynman__subtitle {
+  margin: 0;
+  padding: 0;
   text-align: center;
-    justify-content: center;
-    font-size: 36px;
-    font-weight: normal;
-    line-height: 51px;
-    margin-top: 70px;
-    z-index: 1;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  margin-top: 70px;
+  z-index: 1;
 }
 .feynman__link {
   position: absolute;
@@ -204,9 +218,11 @@
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
+  color: #2f80ed;
+  text-decoration: none;
 }
 .kaufman {
-  background-color: #000000;
+  background-color: #1f1f1f;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,7 +230,9 @@
   position: relative;
   padding: 90px 0 90px;
 }
-.section-title__theme_dark {
+.section-title_theme_dark {
+  margin: 0;
+  padding: 0;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -222,19 +240,19 @@
   font-size: 60px;
   font-weight: bolder;
   line-height: 1.15;
-  margin: 0px;
   margin-bottom: 20px;
   z-index: 1;
 }
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
-  margin: 0px;
   color: white;
   z-index: 1;
 }
-.table__theme_dark {
+.table_theme_dark {
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -250,12 +268,16 @@
   z-index: 1;
 }
 .table__heading_theme_dark {
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.15;
   margin-top: 0px;
 }
 .table__text_theme_dark {
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -275,7 +297,7 @@
   min-height: 350px;
   box-sizing: border-box;
   width: 100%;
-  background-color: #000000;
+  background-color: #1f1f1f;
 }
 .footer__columns {
   display: flex;
@@ -284,7 +306,7 @@
   width: 90%;
   margin:60px auto 40px;
 }
-.footer__column_content_copyright {
+.footer__column_content-copyright {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -296,23 +318,23 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
-  color: #10191e;
+  color:white;
   padding: 18px 0 18px;
 }
-.logo__place_footer {
+.logo_place_footer {
   left: 0px;
   top: 0px;
   width: 183px;
   height: 35px;
   margin: 0px;
 }
-.footer__columns_content_info {
+.footer__columns_content-info {
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
   color: white;
 }
-.footer__columns_content_social {
+.footer__columns_content-social {
   font-size: 18px;
   font-weight: normal;
   color: white;
@@ -326,7 +348,7 @@
   line-height: 30px;
 }
 .footer__column-link {
-  color: #2f80ed;
+  color: white;
   display: block;
   text-decoration: none;
 }

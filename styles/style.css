@@ -220,6 +220,7 @@
   line-height: 51px;
   color: #2f80ed;
   text-decoration: none;
+  z-index: 1;
 }
 .kaufman {
   background-color: #1f1f1f;
@@ -306,7 +307,7 @@
   width: 90%;
   margin:60px auto 40px;
 }
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -314,12 +315,11 @@
   flex-basis: 711px;
 }
 .footer__author {
-  margin-left: 0px;
+  margin:18px 0;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
   color:white;
-  padding: 18px 0 18px;
 }
 .logo_place_footer {
   left: 0px;
@@ -328,13 +328,13 @@
   height: 35px;
   margin: 0px;
 }
-.footer__columns_content-info {
+.footer__columns_content_info {
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
   color: white;
 }
-.footer__columns_content-social {
+.footer__columns_content_social {
   font-size: 18px;
   font-weight: normal;
   color: white;

@@ -1,0 +1,12 @@
+.cards__image{
+    width: 160px;
+    height: 160px;
+    bottom: 43px;
+    margin-right: 40px;
+    margin-left:40px;
+    z-index: 1;
+    object-fit:cover;
+   }
+   .round {
+    border-radius: 100px; 
+   }

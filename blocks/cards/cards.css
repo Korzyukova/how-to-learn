@@ -1,0 +1,6 @@
+.cards{  
+    display: grid;
+    width: 920px;
+    justify-content: space-between;
+    grid-template-columns: 240px 240px 240px;
+  }

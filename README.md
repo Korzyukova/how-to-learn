@@ -1,4 +1,5 @@
  # **HOW TO LEARN**
+ :mortar_board:
 
 ## __About HOW TO LEARN__
 

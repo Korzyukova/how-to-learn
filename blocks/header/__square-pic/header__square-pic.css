@@ -1,8 +1,8 @@
 .header__square-pic {
-    position: absolute;
-    right: 0px;
-    top: 64px;
-    width: 568px;
-    height: 568px;
-    background-color: #2f80ed;
-  }
+  position: absolute;
+  right: 0px;
+  top: 64px;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+}

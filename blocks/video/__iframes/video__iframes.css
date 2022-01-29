@@ -1,9 +1,11 @@
-.video__iframes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: -50px;
-    width: 1050px;
-  }
+.video__iframes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  column-gap: 20px;
+}
+
+

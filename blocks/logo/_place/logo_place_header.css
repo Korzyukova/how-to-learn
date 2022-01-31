@@ -2,5 +2,6 @@
   position: absolute;
   left: 64px;
   top: 30px;
+  height: 32px;
   z-index: 1;
 }

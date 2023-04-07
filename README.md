@@ -3,7 +3,7 @@
 
 ## __About HOW TO LEARN__
 
-HOW TO ~~PRAY~~ LEARN is a web application with expressive, elegant syntax. We believe learning something new must be an enjoyable and creative experience to be truly fulfilling. HOW TO LEARN takes the pain out of learning by easing common ways to learn. 
+HOW TO LEARN is a web application with expressive, elegant syntax. We believe learning something new must be an enjoyable and creative experience to be truly fulfilling. HOW TO LEARN takes the pain out of learning by easing common ways to learn. 
 
 ## __Partners__
 
